@@ -6,7 +6,7 @@ import {Component} from '@angular/core';
     // this is the selector to be used in the hrml file
     selector:'ap-server',
     // this is the html file that will represent the component
-    templateUrl: './server.component.html'
+    templateUrl: 'server.component.html'
 })
 
 export class ServerComponent{
