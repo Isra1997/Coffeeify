@@ -10,5 +10,7 @@ import {Component} from '@angular/core';
 })
 
 export class ServerComponent{
+    ServerId: number= 10;
+    ServerName: String= "Haha Server";
 
 }
