@@ -2,14 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ServerComponent } from '../server/server.component';
-import { ServersComponent } from './servers/servers.component';
+
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { CoffeeeBlockComponent } from './coffeee-block/coffeee-block.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent,
-    ServersComponent
+
+    NavBarComponent,
+    CoffeeeBlockComponent
   ],
   imports: [
     BrowserModule
