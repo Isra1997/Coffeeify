@@ -13,7 +13,7 @@ export class Selected{
         this.color= 'black';
     }
     @HostListener('mouseleave') mouseleave(){
-        this.color= 'deepskyblue';
+        this.color= "#000099";
     }
 
 }
