@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CoffeeeBlockComponent } from './coffeee-block/coffeee-block.component';
 import { FooterComponent } from './footer/footer.component';
 import { Selected } from './shared/Selectd.directive';
+import { CoffeeAnimJumptronComponent } from './coffee-anim-jumptron/coffee-anim-jumptron.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Selected } from './shared/Selectd.directive';
     NavBarComponent,
     CoffeeeBlockComponent,
     FooterComponent,
-    Selected
+    Selected,
+    CoffeeAnimJumptronComponent
   ],
   imports: [
     BrowserModule
